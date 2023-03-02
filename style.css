@@ -439,7 +439,7 @@ body {
   width: 190px;
 }
 .fb1-child-2 {
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 600;
   color: white;
 }
@@ -449,11 +449,11 @@ body {
 /* Responsive Flexbox 1 */
 @media (max-width:1000px) {
   .fb1-child-2 {
-    font-size: 43px;
+    font-size: 40px;
   }
 
   .fb1-child-3 {
-    width: 50%;
+    width: 330px;
   }
   .flexbox1 {
      height: 100%;
