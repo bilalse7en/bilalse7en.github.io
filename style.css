@@ -543,9 +543,10 @@ body {
   display: flex;
   margin: 25px 0px 25px 0px;
   justify-content: center;
+  align-items: center;
 }
 /*Responsive Platform form styling */
-@media (max-width:1024px) {
+@media (max-width:1000px) {
   .platform-bg {
     background: #363642;
     width: auto;
@@ -613,13 +614,9 @@ body {
   border-radius: 100px;
   width: fit-content;
 }
-
 @media (max-width:1000px) {
-  .main-banner- {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    gap: 0px;
-    background: radial-gradient(circle, rgba(51, 51, 51, 1) 155px, rgba(51, 51, 51, 1) 155px, rgba(51, 51, 51, 1) 155px, rgba(51, 51, 51, 0) 155px);
-  }
+.cards-container {
+  width: 100%;
+  margin: auto;
+}
 }
