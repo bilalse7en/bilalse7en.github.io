@@ -276,6 +276,12 @@ body {
 .nav-title-img {
   width: max-content;
 }
+.heading {
+  font-size: 60px;
+}
+.sub-heading {
+    font-size: 50px;
+}
 
 
 .nav {
@@ -431,15 +437,12 @@ body {
   position: relative;
 }
 
-.fb1-child-1 {
-  font-size: 50px;
-}
+
 .name-underline {
   border: 3px solid #ffba00;
   width: 190px;
 }
 .fb1-child-2 {
-  font-size: 60px;
   font-weight: 600;
   color: white;
 }
@@ -557,6 +560,10 @@ body {
 .project-container {
   width: 75%;
   margin: auto;
+}
+
+.pc-childw {
+  width: inherit;
 }
 /* responsive container */
 @media (max-width:1000px) {
