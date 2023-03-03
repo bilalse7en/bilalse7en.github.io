@@ -565,7 +565,7 @@ body {
 
 .pc-childw {
   width: inherit;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 /* responsive container */
 @media (max-width:1000px) {
